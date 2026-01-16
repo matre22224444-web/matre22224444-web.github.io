@@ -1,0 +1,34 @@
+body{overflow-x: hidden;
+     display: flex;
+     flex-direction: row;}
+.fon{filter: blur(2px);
+     position: fixed;
+     }
+.box1{position: absolute;
+      right: 0;
+      margin-top: 50px;}
+
+.box1:hover{transform: scale(1.1);
+            transition: 0.5s;}
+
+.box2{position: absolute;
+      top:1300px;
+      right: 5%;
+      margin-top: 50px;}
+
+.box2:hover{transform: scale(1.1);
+            transition: 0.5s;}
+.box3{position: absolute;
+      top:600px;
+      left:25%;
+      margin-top: 50px;}
+
+.box3:hover{transform: scale(1.1);
+            transition: 0.5s;}
+.knopka{position: fixed;
+        top:3px;
+        left: 3px;
+        z-index: 10;
+        border-radius: 50%;}
+.knopka:hover{background-color: rgb(224, 224, 224);
+              transition: 0.5s;}

@@ -1,0 +1,27 @@
+.fon{filter: blur(2px);
+     position: fixed;
+     top:0;
+     left:0;
+     }
+.box1{position: absolute;
+      left: 0;
+      top:20%;
+      margin-top: 50px;}
+
+.box1:hover{transform: scale(1.1);
+            transition: 0.5s;}
+.box2{position: absolute;
+      right: 5%;
+      top:20%;
+      margin-top: 50px;}
+
+.box2:hover{transform: scale(1.1);
+            transition: 0.5s;}
+body{overflow: hidden;}
+.knopka{position: fixed;
+        top:3px;
+        left: 3px;
+        z-index: 10;
+        border-radius: 50%;}
+.knopka:hover{background-color: rgb(204, 204, 204);
+              transition: 0.5s;}
